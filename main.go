@@ -108,7 +108,7 @@ func progressPrint(msgs [15]string, startTime time.Time, finished bool) {
 func initDb() *sqlx.DB {
 	// connect to db using standard Go database/sql API
 	// use whatever database/sql driver you wish
-	db, err := sqlx.Open("postgres", "user=dev dbname=fias password=dev sslmode=disable")
+	db, err := sqlx.Open("postgres", "user=postgres dbname=fias password=postgres sslmode=disable")
 	checkErr(err, "sqlx.Open failed")
 
 	return db

@@ -25,17 +25,17 @@ type XmlObject struct {
 	EXTRCODE   int      `xml:"EXTRCODE,attr" db:"extr_code"`
 	SEXTCODE   int      `xml:"SEXTCODE,attr" db:"sext_code"`
 	OFFNAME    *string  `xml:"OFFNAME,attr,omitempty" db:"off_name"`
-	POSTALCODE *string  `xml:"POSTALCODE,attr,omitempty" db:"postal_code"`
+	POSTALCODE string  `xml:"POSTALCODE,attr,omitempty" db:"postal_code"`
 	IFNSFL     int      `xml:"IFNSFL,attr,omitempty" db:"ifns_fl"`
 	TERRIFNSFL int      `xml:"TERRIFNSFL,attr,omitempty" db:"terr_ifns_fl"`
 	IFNSUL     int      `xml:"IFNSUL,attr,omitempty" db:"ifns_ul"`
 	TERRIFNSUL int      `xml:"TERRIFNSUL,attr,omitempty" db:"terr_ifns_ul"`
-	OKATO      *string  `xml:"OKATO,attr,omitempty" db:"okato"`
+	OKATO      string  `xml:"OKATO,attr,omitempty" db:"okato"`
 	OKTMO      *string  `xml:"OKTMO,attr,omitempty" db:"oktmo"`
 	UPDATEDATE string   `xml:"UPDATEDATE,attr" db:"update_date"`
 	SHORTNAME  string   `xml:"SHORTNAME,attr" db:"short_name"`
 	AOLEVEL    int      `xml:"AOLEVEL,attr" db:"ao_level"`
-	PARENTGUID *string  `xml:"PARENTGUID,attr,omitempty" db:"parent_guid"`
+	PARENTGUID string  `xml:"PARENTGUID,attr,omitempty" db:"parent_guid"`
 	AOID       string   `xml:"AOID,attr" db:"ao_id"`
 	PREVID     *string  `xml:"PREVID,attr,omitempty" db:"prev_id"`
 	NEXTID     *string  `xml:"NEXTID,attr,omitempty" db:"next_id"`

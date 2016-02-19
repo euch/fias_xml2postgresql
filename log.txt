@@ -8,3 +8,13 @@ FATAL: 2015/08/07 16:04:06 main.go:289: Попали в done
 FATAL: 2015/08/07 16:04:06 main.go:337: Все горутины завершились
 FATAL: 2015/08/08 17:39:43 main.go:337: Все горутины завершились
 FATAL: 2015/08/08 17:39:43 main.go:289: Попали в done
+FATAL: 2016/02/18 18:32:42 export.go:79: Error searching file: File not found
+FATAL: 2016/02/18 18:34:28 export.go:79: Error searching file: File not found
+FATAL: 2016/02/18 18:41:27 export.go:79: Error searching file: File not found
+FATAL: 2016/02/18 18:46:17 export.go:79: Error searching file: File not found
+FATAL: 2016/02/18 18:51:18 export.go:79: Error searching file: File not found
+FATAL: 2016/02/18 18:53:06 export.go:79: Error searching file: File not found
+FATAL: 2016/02/18 18:57:42 export.go:79: Error searching file: File not found
+FATAL: 2016/02/19 10:21:07 export.go:185: pq: invalid input syntax for uuid: ""
+FATAL: 2016/02/19 13:47:54 main.go:290: Попали в done
+FATAL: 2016/02/19 13:47:54 main.go:338: Все горутины завершились

@@ -9,18 +9,18 @@ import (
 // Сведения по номерам домов улиц городов и населенных пунктов, номера земельных участков и т.п
 type XmlObject struct {
 	XMLName    xml.Name `xml:"House" db:"as_house_"`
-	POSTALCODE *string  `xml:"POSTALCODE,attr,omitempty" db:"postal_code"`
+	POSTALCODE string  `xml:"POSTALCODE,attr,omitempty" db:"postal_code"`
 	IFNSFL     int      `xml:"IFNSFL,attr,omitempty" db:"ifns_fl"`
 	TERRIFNSFL int      `xml:"TERRIFNSFL,attr,omitempty" db:"terr_ifns_fl"`
 	IFNSUL     int      `xml:"IFNSUL,attr,omitempty" db:"ifns_ul"`
 	TERRIFNSUL int      `xml:"TERRIFNSUL,attr,omitempty" db:"terr_ifns_ul"`
-	OKATO      *string  `xml:"OKATO,attr,omitempty" db:"okato"`
+	OKATO      string  `xml:"OKATO,attr,omitempty" db:"okato"`
 	OKTMO      *string  `xml:"OKTMO,attr,omitempty" db:"oktmo"`
 	UPDATEDATE string   `xml:"UPDATEDATE,attr" db:"update_date"`
-	HOUSENUM   *string  `xml:"HOUSENUM,attr,omitempty" db:"house_num"`
+	HOUSENUM   string  `xml:"HOUSENUM,attr,omitempty" db:"house_num"`
 	ESTSTATUS  int      `xml:"ESTSTATUS,attr" db:"est_status"`
-	BUILDNUM   *string  `xml:"BUILDNUM,attr,omitempty" db:"build_num"`
-	STRUCNUM   *string  `xml:"STRUCNUM,attr,omitempty" db:"struc_num"`
+	BUILDNUM   string  `xml:"BUILDNUM,attr,omitempty" db:"build_num"`
+	STRUCNUM   string  `xml:"STRUCNUM,attr,omitempty" db:"struc_num"`
 	STRSTATUS  int      `xml:"STRSTATUS,attr" db:"str_status"`
 	HOUSEID    string   `xml:"HOUSEID,attr" db:"house_id"`
 	HOUSEGUID  string   `xml:"HOUSEGUID,attr" db:"house_guid"`
